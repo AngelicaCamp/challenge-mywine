@@ -14,7 +14,7 @@
 
 ## 💻 Projeto
 
-Site de vendas online , desenvolvido com foco no aprendizado em front-end. O projeto foi desenvolvido usando arquitetura SMACSS. 
+Site de vendas online , desenvolvido com foco no aprendizado em front-end. O projeto foi desenvolvido usando a metodologia de arquitetura CSS - SMACSS. 
 
 
 
