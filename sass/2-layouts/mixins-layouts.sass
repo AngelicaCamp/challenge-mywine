@@ -1,0 +1,29 @@
+@use '../1-base/_variables'
+
+// arredondamento do input
+@mixin rounded-input
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
+    padding-left: 25px
+
+
+@mixin icons-area-client
+    display: flex
+    flex-direction: column
+    text-align: center
+    margin-left: 2.5rem
+    position: relative
+
+
+    .qty
+        position: absolute
+        top: -10px            
+        right: 2px
+        height: 18px
+        width: 18px
+        border-radius: 50% 
+        background-color: variables.$primary-color
+
+
+    a:hover
+        color: variables.$primary-color

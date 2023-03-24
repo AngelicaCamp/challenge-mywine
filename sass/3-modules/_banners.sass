@@ -1,0 +1,55 @@
+@use '../1-base/variables'
+@use 'mixins-modules'
+@use '../1-base/base-mixins'
+
+.banner
+    background-color: variables.$bg-color-card-secundary
+    width: 30%
+    height: 200px
+    position: relative
+    @include mixins-modules.center-bg
+    background-size: 100%
+    transition: .4s
+    color: variables.$bg-color-light
+
+    @include base-mixins.mobile
+        width: 90%
+        margin: 1rem
+    
+
+    &:hover
+        background-size: 120%
+
+    &__card
+        background-color: variables.$bg-color-card
+        width: 70%
+        height: 100%
+        border-bottom-right-radius: 6rem
+
+        &-content
+            position: absolute
+            top: 0
+            left: 0
+            padding: 2rem
+
+
+            h2
+                font-size: 2.1rem
+                margin-bottom: 1rem
+                max-width: 70%
+
+            a
+                display: flex
+                align-items: center
+                font-size: 1.5rem
+                color: variables.$text-color-light
+                font-weight: bold
+
+
+            i
+                color: #c87986
+                margin-left: .8rem
+        
+
+
+

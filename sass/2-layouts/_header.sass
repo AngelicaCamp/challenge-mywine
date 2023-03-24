@@ -1,0 +1,105 @@
+@use '../1-base/variables'
+@use 'mixins-layouts'
+@use '../1-base/base-mixins'
+
+
+.header-container
+    background-color: variables.$bg-color
+    color: variables.$text-color-light
+    display: flex
+    justify-content: space-around
+    padding: 1.3rem 0
+    
+
+    @include base-mixins.mobile
+        flex-direction: column
+        align-items: center
+        
+
+    a
+        color: variables.$text-color-light
+
+
+    .logo
+
+        &__link
+            font-weight: 900
+            font-size: 3rem
+            padding-right: .5rem
+
+        &__icon
+            color: variables.$primary-color
+            font-size: 2rem
+
+
+    .search-form
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 35%
+
+        @include base-mixins.mobile
+            width: 100%
+            margin: 2rem 0
+        
+        input
+            height: 40px
+
+
+        #search
+            @include mixins-layouts.rounded-input
+            width: 60%
+            
+    .area-client
+        display: flex
+        align-items: center
+
+        .favorites-container , .cart-container
+              @include mixins-layouts.icons-area-client
+
+              @include base-mixins.mobile
+                margin: 1rem
+              
+              
+
+
+.navbar-container
+    background-color: variables.$bg-color-light
+    border-top: 3px solid variables.$primary-color
+    border-bottom: 2px solid variables.$border-line-bottom
+   
+
+    
+    ul
+        display: flex
+        max-width: variables.$container-width
+        margin: 0 auto
+        padding: 1rem 0
+
+        @include base-mixins.mobile
+            align-items: center
+            justify-content: center
+            
+        
+
+    li
+        margin-right: 1.3rem
+
+        a
+            color: variables.$link-color
+            border-bottom: 2px solid transparent
+        
+
+            &:hover
+                border-color: variables.$bg-color-card-secundary
+                color: variables.$primary-color
+                
+
+        
+
+
+    
+
+
+
+    

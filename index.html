@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mywine</title>
+        <!-- Open Sans -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous" />
+        <!-- CSS do projeto -->
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <a href="#" class="logo__link">myWine</a>
+                    <i class="logo__icon fas fa-solid fa-wine-glass"></i>
+                </div>
+
+                <form class="search-form">
+                    <input type="text" id="search" placeholder="Busque aqui">
+                    <input type="submit" class="btn btn-half" value="Pesquisar">
+                </form>
+                
+                <div class="area-client">
+                    <div class="favorites-container">
+                        <span class="qty">0</span>
+                        <i class="far fa-heart"></i>
+                        <a href="#">Favoritos</a>
+                    </div>
+                    <div class="cart-container">
+                        <span class="qty">0</span>
+                        <i class="fas fa-shopping-cart"></i>
+                        <a href="#">Carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Navbar-->
+            <div class="navbar-container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Vinhos</a>
+                        </li>
+                        <li>
+                            <a href="#">Kits</a>
+                        </li>
+                        <li>
+                            <a href="#">Best sellers</a>
+                        </li>
+                        <li>
+                            <a href="#">Acessórios</a>
+                        </li>
+                        <li>
+                            <a href="#">Clube</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!--Section - Banners-->
+            <section class="banners">
+                <div class="banner">
+                    <div class="banner__card">
+                        <div class="banner__card-content">
+                            <h2>Promoção de Vinhos</h2>
+                            <a href="#">Ver Mais
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="banner__card">
+                        <div class="banner__card-content">
+                            <h2>Acessórios para Vinhos</h2>
+                            <a href="#">Ver Mais
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="banner__card">
+                        <div class="banner__card-content">
+                            <h2>Kits de Vinho</h2>
+                            <a href="#">Ver Mais
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Section - Produtos-->
+            <section class="products">
+                <h2>Produtos Novos</h2>
+                <div class="products-container">
+                    <div class="product__card">
+                        <span id="new">New</span>
+                        <img src="img/vinho01.PNG" alt="Produto 1">
+                        <p class="product__card-category">Branco</p>
+                        <h3 class="product__card-name">Fontaine Du Château </h3>
+                        <p class="product__card-price">R$ 30,00</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="new">New</span>
+                        <img src="img/vinho02.PNG" alt="Produto 2">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Baron Guillot</h3>
+                        <p class="product__card-price">R$ 65,00</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="new">New</span>
+                        <img src="img/vinho03.PNG" alt="Produto 3">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Noble Duc Romain</h3>
+                        <p class="product__card-price">R$ 30,00</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="new">New</span>
+                        <img src="img/vinho04.PNG" alt="Produto 4">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">L'Amour de Venus</h3>
+                        <p class="product__card-price">R$ 30,00</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!--Section - Promoção-->
+            <section class="promotion">
+                <div class="promotion-container">
+                    <div class="promotion-box">
+                        <div class="promotion">
+                            <span class="promotion__timer-time">02</span>
+                            <span class="promotion__timer-word">Dias</span>
+                        </div>
+                        <div class="promotion">
+                            <span class="promotion__timer-time">12</span>
+                            <span class="promotion__timer-word">Horas</span>
+                        </div>
+                        <div class="promotion">
+                            <span class="promotion__timer-time">25</span>
+                            <span class="promotion__timer-word">Minutos</span>
+                        </div>
+                        <div class="promotion">
+                            <span class="promotion__timer-time">33</span>
+                            <span class="promotion__timer-word">Segundos</span>
+                        </div>
+                    </div>
+                    <h2 class="promotion-title">Promoção de Vinho Branco</h2>
+                    <p class="promotion-subtitle">Kits de vinho com 70% de desconto</p>
+                    <button class="btn">Comprar Agora</button>
+                </div>
+            </section>
+
+            <!--Section - Mais Vendidos-->
+            <section class="products">
+                <h2>Best Sellers</h2>
+                <div class="products-container">
+                    <div class="product__card">
+                        <span id="hot">HOT</span>
+                        <img src="img/vinho05.PNG" alt="Produto 1">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Cuvée de Cesar </h3>
+                        <p class="product__card-price">R$ 39,90</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="hot">HOT</span>
+                        <img src="img/vinho06.PNG" alt="Produto 2">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Pioneers Carménère</h3>
+                        <p class="product__card-price">R$ 39,90</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="hot">HOT</span>
+                        <img src="img/vinho07.PNG" alt="Produto 3">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Expedicion Single</h3>
+                        <p class="product__card-price">R$ 30,90</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                    <div class="product__card">
+                        <span id="hot">HOT</span>
+                        <img src="img/vinho08.PNG" alt="Produto 4">
+                        <p class="product__card-category">Tinto</p>
+                        <h3 class="product__card-name">Playa Azul</h3>
+                        <p class="product__card-price">R$ 36,90</p>
+                        <div class="rating-box">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!--Section - Newsletter-->
+            <section class="newsletter">
+                <div class="newsletter-container">
+                    <h2>Assine a nossa <span>Newsletter</span></h2>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+                        <input type="submit" class="btn btn-half" value="Assinar">
+                    </form>
+                    <div class="social-media">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footer__box1">
+                <div class="footer__box1-about">
+                    <h3>Sobre Nós</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, sed? Dolores ea hic officia. Debitis molestias in voluptatum asperiores. Deserunt recusandae repellendus eligendi distinctio sunt vitae voluptas mollitia, pariatur doloremque?</p>
+                    <p>
+                        <i class="fas fa-location-arrow"></i>
+                        <a href="#">Rua das videiras, 1234</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        <a href="#">(45) 99999-0000</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <a href="#">mywine@email.com</a>
+                    </p>
+                </div>
+                <div class="footer__box1-categories">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Tintos</a>
+                        </li>
+                        <li>
+                            <a href="#">Brancos</a>
+                        </li>
+                        <li>
+                            <a href="#">Rosés</a>
+                        </li>
+                        <li>
+                            <a href="#">Frisantes</a>
+                        </li>
+                        <li>
+                            <a href="#">Espumantes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box1-information">
+                    <h3>Informações</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#">Entre em contato</a>
+                        </li>
+                        <li>
+                            <a href="#">Política de Privacidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos e Condições</a>
+                        </li>
+                        <li>
+                            <a href="#">Central de Dúvidas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box1-client">
+                    <h3>Cliente</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Minha conta</a>
+                        </li>
+                        <li>
+                            <a href="#">Carrinho</a>
+                        </li>
+                        <li>
+                            <a href="#">Lista de Desejos</a>
+                        </li>
+                        <li>
+                            <a href="#">Rastrear Pedido</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__box2">
+                <div class="footer__box2-payments">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-diners-club"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+                <p>Copyright &copy; 2023 - myWine</p>
+            </div>
+        </footer>
+    </body>
+</html>
