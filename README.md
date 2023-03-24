@@ -8,9 +8,7 @@
 
 <br>
 
-![](mywine.PNG)
-
-## 
+ 
 
 ## 💻 Projeto
 
