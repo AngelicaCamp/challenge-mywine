@@ -1,4 +1,4 @@
-<h1 align="center">MYWINE</h1>
+<h1 align="center">myWine</h1>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>   | 
@@ -8,15 +8,13 @@
 
 <br>
 
-![](lemann.PNG)
+![](mywine.PNG)
 
 ## 
 
 ## 💻 Projeto
 
 Site de vendas online , desenvolvido com foco no aprendizado em front-end. O projeto foi desenvolvido usando SMACSS - padrão de arquitetura de CSS.
-
-
 
 ## 🚀 Tecnologias
 
