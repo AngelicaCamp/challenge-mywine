@@ -42,7 +42,7 @@ ul {
   justify-content: space-around;
   padding: 1.3rem 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .header-container {
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ ul {
   align-items: center;
   width: 35%;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .header-container .search-form {
     width: 100%;
     margin: 2rem 0;
@@ -104,7 +104,7 @@ ul {
 .header-container .area-client .favorites-container a:hover, .header-container .area-client .cart-container a:hover {
   color: #8F4355;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .header-container .area-client .favorites-container, .header-container .area-client .cart-container {
     margin: 1rem;
   }
@@ -121,7 +121,7 @@ ul {
   margin: 0 auto;
   padding: 1rem 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .navbar-container ul {
     align-items: center;
     justify-content: center;
@@ -146,7 +146,7 @@ ul {
   max-width: 1170px;
   padding: 3rem 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .banners {
     flex-direction: column;
     align-items: center;
@@ -165,7 +165,7 @@ ul {
   font-size: 2rem;
   text-transform: uppercase;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .products h2 {
     text-align: center;
   }
@@ -175,7 +175,7 @@ ul {
   justify-content: space-between;
   padding: 2rem 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .products-container {
     flex-direction: column;
     align-items: center;
@@ -200,7 +200,7 @@ ul {
   display: flex;
   margin-bottom: 2rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .promotion-container .promotion-box {
     flex-wrap: wrap;
     align-items: center;
@@ -219,7 +219,7 @@ ul {
   color: #fff5ed;
   margin: 0 1rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .promotion-container .promotion-box .promotion {
     margin: 1rem;
   }
@@ -233,7 +233,7 @@ ul {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .promotion-container .promotion-title {
     text-align: center;
   }
@@ -242,7 +242,7 @@ ul {
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .promotion-container .promotion-subtitle {
     font-size: 1.2rem;
   }
@@ -268,7 +268,7 @@ ul {
   color: #333;
   margin-bottom: 2rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .newsletter-container h2 {
     font-size: 2.5rem;
     text-align: center;
@@ -307,7 +307,7 @@ ul {
   background-color: #520E1E;
   padding: 3rem 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .footer {
     padding: 3rem;
   }
@@ -337,7 +337,7 @@ ul {
   max-width: 1170px;
   padding-bottom: 3rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .footer__box1 {
     flex-direction: column;
   }
@@ -345,7 +345,7 @@ ul {
 .footer__box1-about, .footer__box1-categories, .footer__box1-information, .footer__box1-client {
   max-width: 25%;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .footer__box1-about, .footer__box1-categories, .footer__box1-information, .footer__box1-client {
     max-width: 100%;
     margin-bottom: 1rem;
@@ -405,7 +405,7 @@ ul {
   transition: 0.4s;
   color: #f8f3ef;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .banner {
     width: 90%;
     margin: 1rem;
@@ -455,7 +455,7 @@ ul {
   padding: 1rem;
   transition: 0.4s;
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .product__card {
     width: 90%;
     margin: 1rem;
