@@ -10,7 +10,7 @@
 
 ## 💻 Projeto
 
-Site de vendas online , desenvolvido com foco no aprendizado em front-end. O projeto foi desenvolvido usando SMACSS - padrão de arquitetura de CSS.
+Webpage de vendas online , desenvolvido com foco no aprendizado em front-end. O projeto foi desenvolvido usando SMACSS - padrão de arquitetura de CSS.
 
 ## 🚀 Tecnologias
 
@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Page
 
-* Você pode visualizar o resultado final do projeto através [desse link](<https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546>). 
+* Você pode visualizar o resultado final do projeto através [desse link](<https://angelicacamp.github.io/challenge-mywine/>). 
 
 ---
 
